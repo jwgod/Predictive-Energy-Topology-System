@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="main.css">
+<title>PETS - Route Planner </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript" src="map.js"></script>
+</head>
+
+<body onload="initialize()">
+  <div id='browser'>
+    <div id='content'>
+
+      <div id='right'>
+        <form>
+          <p>Enter Route Information</p>
+          <input placeholder='Start' type='text' name="start">
+          <input placeholder='End' type='text' name="end">
+          <input placeholder='Send' type='submit' >
+        </form>
+      </div>
+
+      <div id="map_canvas">
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
